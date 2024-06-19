@@ -10,7 +10,7 @@ const Header = () => {
           className="h-full w-full object-cover cursor-pointer"
         />
       </div>
-      <ul className="flex gap-9">
+      <ul className="hidden lg:flex gap-9">
         <li className="cursor-pointer hover:font-[500]">Für Brands</li>
         <li className="cursor-pointer  hover:font-[500]">So funktioniert's</li>
         <li className="cursor-pointer  hover:font-[500]">Preise</li>

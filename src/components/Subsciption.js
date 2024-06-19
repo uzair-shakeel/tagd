@@ -5,10 +5,10 @@ import { FaCheck } from "react-icons/fa6";
 const Subscription = () => {
   return (
     <div className="px-[10%] py-14">
-      <h1 className="text-5xl text-center font-[700]">
+      <h1 className="text-3xl md:text-5xl text-center font-[700]">
         Wähle dein <span className="text-[#F0CF90]">Abo</span>
       </h1>
-      <div className="grid grid-cols-3 gap-[20px] py-9">
+      <div className="grid lg:grid-cols-3 gap-[20px] py-9">
         <div className="flex flex-col items-center border border-black rounded-lg py-14 px-7">
           <img
             src="/subscription1.png"
@@ -16,7 +16,7 @@ const Subscription = () => {
             className="h-[60px] w-[60px]"
           />
           <h3 className="text-xl font-[700] py-6">Standard</h3>
-          <div className=" rounded-lg overflow-hidden">
+          <div className=" w-full rounded-lg overflow-hidden">
             <div className="flex p-4 border-t border-gray-300">
               <div className="flex-1 text-center">
                 <ImCross className="text-red-500" />
@@ -80,7 +80,7 @@ const Subscription = () => {
           />
           <h3 className="text-xl font-[700] text-[#F0CF90] py-6">Exclusive</h3>
           <p className="text-xs">Monatlich kündbar</p>
-          <div className=" rounded-lg overflow-hidden">
+          <div className="w-full rounded-lg overflow-hidden">
             <div className="flex p-4 border-t border-gray-300">
               <div className="flex-1 text-center">
                 <FaCheck className="text-green-500" />
@@ -146,7 +146,7 @@ const Subscription = () => {
           />
           <h3 className="text-xl font-[700] text-[#F0CF90] py-6">Exclusive</h3>
           <p className="text-xs">Monatlich kündbar</p>
-          <div className=" rounded-lg overflow-hidden">
+          <div className="w-full rounded-lg overflow-hidden">
             <div className="flex p-4 border-t border-gray-300">
               <div className="flex-1 text-center">
                 <FaCheck className="text-green-500" />

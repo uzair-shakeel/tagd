@@ -4,9 +4,9 @@ import { FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="px-[10%] py-8 flex gap-20 text-[#4F5665] font-[400]">
+    <div className="px-[10%] py-8 flex flex-col lg:flex-row text-center lg:text-start gap-20 text-[#4F5665] font-[400]">
       <div>
-        <div className="h-20 w-40 ">
+        <div className="h-20 w-40 mx-auto lg:mx-0">
           <img
             src="/logo.png"
             alt="logo"
@@ -16,7 +16,7 @@ const Footer = () => {
         <p>Embrace your network</p>
         <div
           className="flex items-center w-full
-         justify-center gap-3 pb-6"
+         justify-center gap-3 pt-6"
         >
           <div className="bg-white cursor-pointer rounded-full text-red-500 shadow-lg p-2">
             <FaFacebookF size={20} />
