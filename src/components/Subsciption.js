@@ -199,8 +199,8 @@ const Subscription = () => {
             </h3>
             <span className="border-t-2 border-[#4F5665] top-[-30px] h-2  w-20 absolute right-[-130px]"></span>
           </div>
-          <p className="text-xs pb-3">Die ersten 3 Monate 0€, danach 3,99€</p>
-          <button className="py-3 px-6 border-2 font-[700] bg-[#F53838] text-white rounded-full">
+          <p className="text-xs pb-3">Die ersten 6 Monate 0€, danach 2,99€</p>
+          <button className="py-3 px-6 border-2 font-[700] border-[#F53838] text-[#F53838] rounded-full">
             Abonnieren
           </button>
         </div>
