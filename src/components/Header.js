@@ -7,18 +7,18 @@ const Header = () => {
         <img
           src="/logo.png"
           alt="logo"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover cursor-pointer"
         />
       </div>
       <ul className="flex gap-9">
-        <li>Für Brands</li>
-        <li>So funktioniert's</li>
-        <li>Preise</li>
-        <li>Häufige Fragen</li>
+        <li className="cursor-pointer hover:font-[500]">Für Brands</li>
+        <li className="cursor-pointer  hover:font-[500]">So funktioniert's</li>
+        <li className="cursor-pointer  hover:font-[500]">Preise</li>
+        <li className="cursor-pointer  hover:font-[500]">Häufige Fragen</li>
       </ul>
       <div>
         <button className="font-[500]">Login</button>
-        <button className="bg-[#F0CF90] py-3 px-6 ml-9 rounded-full font-[500]">
+        <button className="bg-[#F0CF90] hover:px-8 duration-500 py-3 px-6 ml-9 rounded-full font-[500]">
           Registrieren
         </button>
       </div>
